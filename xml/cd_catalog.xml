@@ -1,6 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cd_catalog.css"?>
+
 <CATALOG>
     <CD>
-        <TITLE>Empire Burlesque</TITLE>
+        <TITLED>Empire Burlesque</TITLED>
         <ARTIST>Bob Dylan</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Columbia</COMPANY>
@@ -8,7 +11,7 @@
         <YEAR>1985</YEAR>
     </CD>
     <CD>
-        <TITLE>Hide your heart</TITLE>
+        <TITLED>Hide your heart</TITLED>
         <ARTIST>Bonnie Tyler</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>CBS Records</COMPANY>
@@ -16,7 +19,7 @@
         <YEAR>1988</YEAR>
     </CD>
     <CD>
-        <TITLE>Greatest Hits</TITLE>
+        <TITLED>Greatest Hits</TITLED>
         <ARTIST>Dolly Parton</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>RCA</COMPANY>
@@ -24,7 +27,7 @@
         <YEAR>1982</YEAR>
     </CD>
     <CD>
-        <TITLE>Still got the blues</TITLE>
+        <TITLED>Still got the blues</TITLED>
         <ARTIST>Gary Moore</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Virgin records</COMPANY>
@@ -32,7 +35,7 @@
         <YEAR>1990</YEAR>
     </CD>
     <CD>
-        <TITLE>Eros</TITLE>
+        <TITLED>Eros</TITLED>
         <ARTIST>Eros Ramazzotti</ARTIST>
         <COUNTRY>EU</COUNTRY>
         <COMPANY>BMG</COMPANY>
@@ -40,7 +43,7 @@
         <YEAR>1997</YEAR>
     </CD>
     <CD>
-        <TITLE>One night only</TITLE>
+        <TITLED>One night only</TITLED>
         <ARTIST>Bee Gees</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Polydor</COMPANY>
@@ -48,7 +51,7 @@
         <YEAR>1998</YEAR>
     </CD>
     <CD>
-        <TITLE>Sylvias Mother</TITLE>
+        <TITLED>Sylvias Mother</TITLED>
         <ARTIST>Dr.Hook</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>CBS</COMPANY>
@@ -56,7 +59,7 @@
         <YEAR>1973</YEAR>
     </CD>
     <CD>
-        <TITLE>Maggie May</TITLE>
+        <TITLED>Maggie May</TITLED>
         <ARTIST>Rod Stewart</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Pickwick</COMPANY>
@@ -64,7 +67,7 @@
         <YEAR>1990</YEAR>
     </CD>
     <CD>
-        <TITLE>Romanza</TITLE>
+        <TITLED>Romanza</TITLED>
         <ARTIST>Andrea Bocelli</ARTIST>
         <COUNTRY>EU</COUNTRY>
         <COMPANY>Polydor</COMPANY>
@@ -72,7 +75,7 @@
         <YEAR>1996</YEAR>
     </CD>
     <CD>
-        <TITLE>When a man loves a woman</TITLE>
+        <TITLED>When a man loves a woman</TITLED>
         <ARTIST>Percy Sledge</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Atlantic</COMPANY>
@@ -80,7 +83,7 @@
         <YEAR>1987</YEAR>
     </CD>
     <CD>
-        <TITLE>Black angel</TITLE>
+        <TITLED>Black angel</TITLED>
         <ARTIST>Savage Rose</ARTIST>
         <COUNTRY>EU</COUNTRY>
         <COMPANY>Mega</COMPANY>
@@ -88,7 +91,7 @@
         <YEAR>1995</YEAR>
     </CD>
     <CD>
-        <TITLE>1999 Grammy Nominees</TITLE>
+        <TITLED>1999 Grammy Nominees</TITLED>
         <ARTIST>Many</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Grammy</COMPANY>
@@ -96,7 +99,7 @@
         <YEAR>1999</YEAR>
     </CD>
     <CD>
-        <TITLE>For the good times</TITLE>
+        <TITLED>For the good times</TITLED>
         <ARTIST>Kenny Rogers</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Mucik Master</COMPANY>
@@ -104,7 +107,7 @@
         <YEAR>1995</YEAR>
     </CD>
     <CD>
-        <TITLE>Big Willie style</TITLE>
+        <TITLED>Big Willie style</TITLED>
         <ARTIST>Will Smith</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Columbia</COMPANY>
@@ -112,7 +115,7 @@
         <YEAR>1997</YEAR>
     </CD>
     <CD>
-        <TITLE>Tupelo Honey</TITLE>
+        <TITLED>Tupelo Honey</TITLED>
         <ARTIST>Van Morrison</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Polydor</COMPANY>
@@ -120,7 +123,7 @@
         <YEAR>1971</YEAR>
     </CD>
     <CD>
-        <TITLE>Soulsville</TITLE>
+        <TITLED>Soulsville</TITLED>
         <ARTIST>Jorn Hoel</ARTIST>
         <COUNTRY>Norway</COUNTRY>
         <COMPANY>WEA</COMPANY>
@@ -128,7 +131,7 @@
         <YEAR>1996</YEAR>
     </CD>
     <CD>
-        <TITLE>The very best of</TITLE>
+        <TITLED>The very best of</TITLED>
         <ARTIST>Cat Stevens</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Island</COMPANY>
@@ -136,7 +139,7 @@
         <YEAR>1990</YEAR>
     </CD>
     <CD>
-        <TITLE>Stop</TITLE>
+        <TITLED>Stop</TITLED>
         <ARTIST>Sam Brown</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>A and M</COMPANY>
@@ -144,7 +147,7 @@
         <YEAR>1988</YEAR>
     </CD>
     <CD>
-        <TITLE>Bridge of Spies</TITLE>
+        <TITLED>Bridge of Spies</TITLED>
         <ARTIST>T'Pau</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Siren</COMPANY>
@@ -152,7 +155,7 @@
         <YEAR>1987</YEAR>
     </CD>
     <CD>
-        <TITLE>Private Dancer</TITLE>
+        <TITLED>Private Dancer</TITLED>
         <ARTIST>Tina Turner</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Capitol</COMPANY>
@@ -160,7 +163,7 @@
         <YEAR>1983</YEAR>
     </CD>
     <CD>
-        <TITLE>Midt om natten</TITLE>
+        <TITLED>Midt om natten</TITLED>
         <ARTIST>Kim Larsen</ARTIST>
         <COUNTRY>EU</COUNTRY>
         <COMPANY>Medley</COMPANY>
@@ -168,7 +171,7 @@
         <YEAR>1983</YEAR>
     </CD>
     <CD>
-        <TITLE>Pavarotti Gala Concert</TITLE>
+        <TITLED>Pavarotti Gala Concert</TITLED>
         <ARTIST>Luciano Pavarotti</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>DECCA</COMPANY>
@@ -176,7 +179,7 @@
         <YEAR>1991</YEAR>
     </CD>
     <CD>
-        <TITLE>The dock of the bay</TITLE>
+        <TITLED>The dock of the bay</TITLED>
         <ARTIST>Otis Redding</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Stax Records</COMPANY>
@@ -184,7 +187,7 @@
         <YEAR>1968</YEAR>
     </CD>
     <CD>
-        <TITLE>Picture book</TITLE>
+        <TITLED>Picture book</TITLED>
         <ARTIST>Simply Red</ARTIST>
         <COUNTRY>EU</COUNTRY>
         <COMPANY>Elektra</COMPANY>
@@ -192,7 +195,7 @@
         <YEAR>1985</YEAR>
     </CD>
     <CD>
-        <TITLE>Red</TITLE>
+        <TITLED>Red</TITLED>
         <ARTIST>The Communards</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>London</COMPANY>
@@ -200,7 +203,7 @@
         <YEAR>1987</YEAR>
     </CD>
     <CD>
-        <TITLE>Unchain my heart</TITLE>
+        <TITLED>Unchain my heart</TITLED>
         <ARTIST>Joe Cocker</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>EMI</COMPANY>
