@@ -1,0 +1,23 @@
+<!-- WAY 1 -->
+<note date="2008-01-10">
+    <to>Tove</to>
+    <from>Jani</from>
+</note>
+
+<!-- WAY 2 -->
+<note>
+    <date>2008-01-10</date>
+    <to>Tove</to>
+    <from>Jani</from>
+</note>
+
+<!-- WAY 3 -->
+<note>
+    <date>
+        <year>2008</year>
+        <month>01</month>
+        <day>10</day>
+    </date>
+    <to>Tove</to>
+    <from>Jani</from>
+</note>
