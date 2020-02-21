@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="demo">
+      <h2>Let AJAX change this text</h2>
+      <button type="button" onclick="loadDoc()">Change Content</button>
+    </div>
+
+    <script>
+      function loadDoc() {
+        var xhttp;
+        if (window.XMLHttpRequest) {
+          // code for modern browsers
+          xhttp = new XMLHttpRequest();
+        } else {
+          // code for IE6, IE5
+          // Old Versions of Internet Explorer
+          xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xhttp.onreadystatechange = function() {
+          // readyState	Holds the status of the XMLHttpRequest.
+          // 0: request not initialized
+          // 1: server connection established
+          // 2: request received
+          // 3: processing request
+          // 4: request finished and response is ready
+
+          // status
+          // 200: "OK"
+          // 403: "Forbidden"
+          // 404: "Page not found"
+
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = this.responseText;
+          }
+        };
+
+        // HEADER
+        xhttp.setRequestHeader(
+          "Content-type",
+          "application/x-www-form-urlencoded"
+        );
+        // setRequestHeader(header, value)	Adds HTTP headers to the request
+        // header: specifies the header name
+        // value: specifies the header value
+
+        xhttp.open("GET", "data.txt", true);
+
+        // open(method, url, async)
+        //  method: the type of request: GET or POST
+        //  url: the server (file) location
+        //  async: true (asynchronous) or false (synchronous)
+
+        xhttp.send();
+        // send()	Sends the request to the server (used for GET)
+        // send(string)	Sends the request to the server (used for POST)
+      }
+    </script>
+  </body>
+</html>
