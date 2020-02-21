@@ -9,6 +9,9 @@
 - DTD - **D**ocument **T**ype **D**efinition
 - DOM - **D**ocument **O**bject **M**odel
 - AJAX - **A**synchronous **J**avaScript **A**nd **X**ML
+- WSDL - **W**eb **S**ervices **D**escription **L**anguage
+- SOAP - **S**imple **O**bject **A**ccess **P**rotocol
+- RSS - **R**eally **S**imple **S**yndication
 - XMLNS - Xml NameSpace
 - XHR - XmlHttpRequest
 
@@ -133,6 +136,81 @@ function loadDoc() {
   // send()	Sends the request to the server (used for GET)
   // send(string)	Sends the request to the server (used for POST)
 }
+```
+
+## XML DOM
+
+- The DOM defines a standard for accessing and manipulating XML documents
+- The XML DOM is a standard for how to get, change, add, or delete XML elements.
+- A standard object model for XML
+- A standard programming interface for XML
+- Platform- and language-independent
+
+## XML Web Services
+
+- WSDL, SOAP, RDF, and RSS
+
+### WSDL
+
+An WSDL document describes a web service. It specifies the location of the service, and the methods of the service, using these major elements
+
+- `<types>` Defines the (XML Schema) data types used by the web service
+- `<message>` Defines the data elements for each operation
+- `<portType>` Describes the operations that can be performed and the messages involved.
+- `<binding>` Defines the protocol and data format for each port type
+
+Skeleton of WSDL file
+
+```xml
+<definitions>
+
+<types>
+  data type definitions........
+</types>
+
+<message>
+  definition of the data being communicated....
+</message>
+
+<portType>
+  set of operations......
+</portType>
+
+<binding>
+  protocol and data format specification....
+</binding>
+
+</definitions>
+```
+
+### SOAP
+
+SOAP provides a way to communicate between applications running on different operating systems, with different technologies and programming languages.
+
+- SOAP is an application communication protocol
+- SOAP is a format for sending and receiving messages
+- SOAP is platform independent
+- SOAP is based on XML
+
+```xml
+<?xml version="1.0"?>
+
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope/"
+soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+
+  <soap:Header>
+  ...
+  </soap:Header>
+
+  <soap:Body>
+  ...
+    <soap:Fault>
+    ...
+    </soap:Fault>
+  </soap:Body>
+
+</soap:Envelope>
 ```
 
 ## Tools
