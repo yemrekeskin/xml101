@@ -68,6 +68,8 @@ window.rh = (function () {
         call('post', url, params, success, error, false, token);
     }
 
+
+    // inu = is null - helper function
     rh.inu = function (str) {
         if (str === null || str === undefined || str == "null" || str == "undefined") {
             return true;

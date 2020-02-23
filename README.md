@@ -6,6 +6,7 @@
 
 - XML - e**X**tensible **M**arkup **L**anguage .xml
 - XSLT - e**X**tensible **S**tylesheet **L**anguage **T**ransformations .xsl
+- XSD - **X**ML **S**chema **D**efinition
 - DTD - **D**ocument **T**ype **D**efinition
 - DOM - **D**ocument **O**bject **M**odel
 - AJAX - **A**synchronous **J**avaScript **A**nd **X**ML
@@ -145,6 +146,54 @@ function loadDoc() {
 - A standard object model for XML
 - A standard programming interface for XML
 - Platform- and language-independent
+
+## XML Schema - XSD
+
+- An XML Schema describes the structure of an XML document.
+- XML Schema is an XML-based (and more powerful) alternative to DTD
+- XML documents can have a reference to a DTD or to an XML Schema.
+- XS-SCHEMA
+  - XS-ELEMENT
+    - XS-ATTRIBUTE
+- name (lang), type (xs:string) , default, fixed, use (required, optional)
+- XML Schema has a lot of built-in data types. The most common types are:
+
+  - xs:string
+  - xs:decimal
+  - xs:integer
+  - xs:boolean
+  - xs:date
+  - xs:time
+
+```xml
+<?xml version="1.0"?>
+<not xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com/xml note.xsd">
+
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>
+```
+
+```xsd
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="note">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="to" type="xs:string"/>
+                <xs:element name="from" type="xs:string"/>
+                <xs:element name="heading" type="xs:string"/>
+                <xs:element name="body" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+```
 
 ## XML Web Services
 
