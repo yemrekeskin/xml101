@@ -147,6 +147,11 @@ function loadDoc() {
 - A standard programming interface for XML
 - Platform- and language-independent
 
+## XMl DTD
+
+- PCDATA - Parsed Character Data.
+- CDATA - Character Data
+
 ## XML Schema - XSD
 
 - An XML Schema describes the structure of an XML document.
